@@ -7,7 +7,6 @@ library(stringi)
 
 print("start get code.","new")
 
-
 url <- "http://www.sejongdata.com/query/value.html"
 
 tem <- read_html(url,encoding = "UTF-8")
